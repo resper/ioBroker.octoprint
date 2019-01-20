@@ -283,7 +283,7 @@ function buildRequest(service, callback, data)
             if (!error && (response.statusCode == 200 || response.statusCode == 204)) {
                callback(content);
             } else if (error) {
-                //adapter.log.error(error);
+                adapter.log.debug(error);
             } else {
                 adapter.log.error('Status Code: ' + response.statusCode + ' / Content: ' + content);
             }
