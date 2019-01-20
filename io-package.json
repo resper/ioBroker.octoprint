@@ -29,10 +29,10 @@
         "icon": "octoprint.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/klein0r/ioBroker.octoprint/master/admin/octoprint.png",
+        "extIcon": "https://raw.githubusercontent.com/resper/ioBroker.octoprint/master/admin/octoprint.png",
         "keywords": ["octoprint"],
         "license": "MIT",
-        "readme": "https://github.com/klein0r/ioBroker.octoprint/blob/master/README.md",
+        "readme": "https://github.com/resper/ioBroker.octoprint/blob/master/README.md",
         "loglevel": "info",
         "type": "hardware"
     },
