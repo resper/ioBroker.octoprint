@@ -268,7 +268,7 @@ function buildRequest(service, callback, data)
 {
     var url = 'http://' + adapter.config.octoprintIp + ':' + adapter.config.octoprintPort + '/api/' + service;
 
-    adapter.log.info('sending request to ' + url + ' with data: ' + JSON.stringify(data));
+    adapter.log.debug('sending request to ' + url + ' with data: ' + JSON.stringify(data));
 
     request(
         {
@@ -283,7 +283,7 @@ function buildRequest(service, callback, data)
             if (!error && (response.statusCode == 200 || response.statusCode == 204)) {
                callback(content);
             } else if (error) {
-                adapter.log.error(error);
+                //adapter.log.error(error);
             } else {
                 adapter.log.error('Status Code: ' + response.statusCode + ' / Content: ' + content);
             }
