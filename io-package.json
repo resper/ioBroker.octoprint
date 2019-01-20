@@ -1,11 +1,11 @@
 {
     "common": {
         "name": "octoprint",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
-            "0.0.2": {
-                "en": "Edit Logging",
-                "de": "Edit Logging"
+            "0.0.3": {
+                "en": "Fix connextion status",
+                "de": "Fix connextion status"
             }
         },
 		"title": "OctoPrint",
