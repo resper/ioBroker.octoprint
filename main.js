@@ -285,13 +285,11 @@ function buildRequest(service, callback, data)
             } else if (error) {
                 adapter.setState('info.connection', false, true);
                 conntected = false;
-                printerStatus = 'Disconnected';                
+                printerStatus = 'Disconnected';
+                adapter.setState('printer_status', {val: printerStatus, ack: true});
                 adapter.log.debug(error);
             } else {
                 adapter.log.error('Status Code: ' + response.statusCode + ' / Content: ' + content);
-                adapter.setState('info.connection', false, true);
-                conntected = false;
-                printerStatus = 'Disconnected';                
             }
         }
     );
