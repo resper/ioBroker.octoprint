@@ -287,7 +287,7 @@ function buildRequest(service, callback, data)
                 conntected = false;
                 printerStatus = 'Disconnected';
                 adapter.setState('printer_status', {val: printerStatus, ack: true});
-                adapter.log.debug(error);
+                adapter.log.debug('Get Error as callback: ' + error);
             } else {
                 adapter.log.error('Status Code: ' + response.statusCode + ' / Content: ' + content);
             }
