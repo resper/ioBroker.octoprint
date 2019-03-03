@@ -27,12 +27,11 @@ Adapter to connect OctoPrint to ioBroker
 ### 0.0.1
 
 * (klein0r) initial release
+* Original: https://github.com/klein0r/ioBroker.octoprint
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2018 Matthias Kleine <info@haus-automatisierung.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
