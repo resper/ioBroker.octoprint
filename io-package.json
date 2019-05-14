@@ -1,8 +1,16 @@
 {
     "common": {
         "name": "octoprint",
+        "version": "0.0.1",
+        "version": "0.0.2",	    
         "version": "0.0.3",
         "news": {
+            "0.0.1": {
+                "en": "initial adapter",
+                "de": "Initiale Version"
+            "0.0.2": {
+                "en": "Edit Logging",
+                "de": "Edit Logging"		
             "0.0.3": {
                 "en": "Fix connextion status",
                 "de": "Fix connextion status"
@@ -18,6 +26,7 @@
             "de": "ioBroker OctoPrint Adapter"
         },
         "authors": [
+            "Matthias Kleine <info@haus-automatisierung.com>",
             "Markus Bodmann <info@resper.de>"
         ],
         "docs": {
