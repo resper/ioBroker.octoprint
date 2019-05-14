@@ -8,9 +8,11 @@
             "0.0.1": {
                 "en": "initial adapter",
                 "de": "Initiale Version"
+	    }
             "0.0.2": {
                 "en": "Edit Logging",
                 "de": "Edit Logging"		
+		}
             "0.0.3": {
                 "en": "Fix connextion status",
                 "de": "Fix connextion status"
